@@ -1,0 +1,30 @@
+.add-todo {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+
+    input {
+        flex: 1 1 auto;
+        height: 40px;
+        border-radius: 6px;
+        padding: 0 20px;
+        margin-right: 20px;
+    }
+
+    button {
+        background-color: #72c957;
+        color: #ffffff;
+        height: 40px;
+        border: 1px solid #72c957;
+        border-radius: 4px;
+        transition: 0.2s;
+        padding: 0 25px;
+        cursor: pointer;
+        font-weight: 700;
+
+        &:hover {
+            background-color: #ffffff;
+            color: #72c957;
+        }
+    }
+}
